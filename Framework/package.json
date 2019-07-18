@@ -1,0 +1,27 @@
+{
+  "name": "webdriverioframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tabish Nasar",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^5.11.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "selenium-standalone": "^6.16.0",
+    "wdio": "^3.0.3",
+    "webdriverio": "^5.11.2"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^5.11.2",
+    "@wdio/mocha-framework": "^5.11.0",
+    "@wdio/spec-reporter": "^5.11.0",
+    "@wdio/sync": "^5.11.0",
+    "chromedriver": "^75.1.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
